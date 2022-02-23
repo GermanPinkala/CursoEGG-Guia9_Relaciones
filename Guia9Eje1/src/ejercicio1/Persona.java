@@ -95,7 +95,9 @@ public class Persona {
         System.out.println("Documento: "+ this.getDocumento());
         
         System.out.print("Perros: ");
+        
         for (Perro perros : perro){
+            
             System.out.println("-" + perros.toString());
         }
     }
